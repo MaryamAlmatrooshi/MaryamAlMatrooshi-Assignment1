@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gaze into the Art: A Captivating Exploration of NYUAD's Art Center</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <style>
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #navbar {
+    background-color: #333;
+    overflow: hidden;
+    height: 100px; 
+  }
+
+ 
+  #navbar a {
+    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+    #navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    #navbar .logo {
+      float: right;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+
+    #container {
+      margin: 20px auto;
+      max-width: 800px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2 {
+      color: teal;
+      text-align: center;
+      
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    #photos {
+    text-align: center;
+    }
+
+    .photo {
+      display: inline-block;
+      width: 48%;
+      margin-bottom: 20px;
+    }
+
+    .photo img {
+      width: 80%; 
+      border-radius: 8px;
+    }
+
+    .description {
+      margin-top: 10px;
+      text-align: center;
+      color: #555;
+    }
+
+    .contact-info strong {
+    color: teal; 
+    }
+
+    .contact-info {
+      margin-top: 20px;
+      text-align: center;
+      color: #555;
+      font-weight: bold;
+    }
+
+    .contact-info p {
+      font-weight: normal;
+    }
+
+    .menu-icons,
+    .contact-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .menu-icons img,
+    .contact-icons img {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+    }
+
+    
+    .slideshow-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .slideshow-container .slide {
+      display: none;
+      width: 100%;
+    }
+
+    .slideshow-container .slide img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .contact-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .contact-icons img {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      cursor: pointer; 
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <a href="#home">Home</a>
+    <a href="#art-meaning">What Art Means to Me</a>
+    <a href="#video">Video</a>
+    <a href="#photos">Snippets of the Video</a>
+    <div class="logo">
+      <img src="img/NYUAD.png" alt="NYUAD logo" width="100" height="100">
+    </div>
+  </div>
+  
+
+  <div id="container">
+    <h1>Gaze into the Art: A Captivating Exploration of NYUAD's Art Center</h1>
+
+    <div id="home">
+      <h2>Welcome to Our Art Center</h2>
+      <div class="description">
+        <p>Experience the captivating world of art through instrumental, wall, and movie art.</p>
+        <p>"Art enables us to find ourselves and lose ourselves at the same time." - Thomas Merton</p>
+      </div>
+    </div>
+
+    <div class="description">
+      <h2>What Art Means to Me</h2>
+      <p>Art is a world of wonder and inspiration for me. Exploring art galleries fills me with wonder and excitement, as I witness the creativity and imagination of talented artists. I find joy in capturing the beauty of these artworks through photography, freezing moments of artistic brilliance. Here, I invite you to take a glimpse into the captivating world of art through some of the breathtaking photos I've taken, as well as the photos where I actively engage in artistic endeavors. Join me on this artistic journey as we celebrate the power and magic of art together.</p>
+    </div>
+    <div id="slideshow" class="slideshow-container">
+      <div style="text-align: center;"></div>
+        <img src="img/image1.jpg" alt="Slide 1" width="640" height="500">
+        <img src="img/image2.jpg" alt="Slide 2" width="640" height="500">
+        <img src="img/image3.jpg" alt="Slide 3" width="640" height="500">
+        <img src="img/image4.jpg" alt="Slide 4" width="640" height="500">
+        <img src="img/image5.jpg" alt="Slide 5" width="640" height="500">
+    </div>
+
+    <div id="video">
+      <h2>Video</h2>
+      <div style="text-align: center;">
+        <video width="640" height="360" controls>
+          <source src="img/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="description">
+        <p>Immerse yourself in the world of art with "Gaze into the Art," a 90-second video clip capturing the essence of
+          NYUAD's art center. Experience a visual journey as you witness instrumental art, stunning wall art, and
+          captivating movie art. Follow along as you walk through the art center, exploring its diverse collection and
+          embracing the power of artistic expression. Discover a vibrant tapestry of creativity at NYUAD in this
+          enchanting glimpse into the art world.</p>
+      </div>
+    </div>
+
+    <div id="photos">
+      <h2>Snippets from the video</h2>
+      <div class="photo">
+        <img src="img/slide1.png" alt="Photo 1">
+        <div class="description">
+          <p>A mesmerizing image of me playing the piano, where melodies come to life and emotions are painted with musical notes.</p>
+
+        </div>
+      </div>
+      <div class="photo">
+        <img src="img/slide2.png" alt="Photo 2">
+        <div class="description">
+          <p>A captivating photo of me lost in the pages of a book, where words weave tales that transport us to distant lands and spark our imagination.</p>
+
+        </div>
+      </div>
+      <div class="photo">
+        <img src="img/slide3.png" alt="Photo 3">
+        <div class="description">
+          <p>An array of vibrant wall art adorning the art center, showcasing a diverse fusion of colors, shapes, and expressions that inspire awe and introspection.</p>
+
+        </div>
+      </div>
+      <div class="photo">
+        <img src="img/slide4.png" alt="Photo 4">
+        <div class="description">
+          <p>A cinematic mural capturing the essence of movies, evoking the magic of storytelling and the power of visual narratives.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-info">
+      <p><strong>Contact Information:</strong></p>
+      <p>Maryam Almatrooshi</p>
+      <p>New York University Abu Dhabi</p>
+    </div>
+
+    <div class="menu-icons">
+      <a href="#video"><img src="img/video.png" alt="Video"></a>
+      <a href="#photos"><img src="img/photos.png" alt="Photos"></a>
+    </div>
+    <div class="contact-icons">
+      <button onclick="displayEmail()"> 
+        <img src="img/email-icon.jpeg" alt="Email">
+      </button>
+      <button onclick="displayPhone()"> 
+        <img src="img/Phone.png" alt="Phone">
+      </button>
+      <button onclick="displayInstagram()"> 
+        <img src="img/instagram.png" alt="Social Media">
+      </button>
+    </div>
+  </div>
+  <script>
+        function displayEmail() {
+      alert("Email: mya6505@nyu.edu");
+    }
+
+    function displayPhone() {
+      alert("Phone: +971501234567");
+    }
+
+    function displayInstagram() {
+      alert("Instagram: gazeintotheart");
+    }
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementById("slideshow").getElementsByTagName("img");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); 
+    }
+  </script>
+</body>
+
+</html>
